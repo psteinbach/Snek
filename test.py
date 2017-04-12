@@ -1,6 +1,5 @@
-def sayHelloToName(name):
-    pass
+from HelloSayingGenerator import HelloSayingGenerator
 
-def sayHelloToNameLoudly(name):
-    print("HELLO, " + name.upper() + "!")
-sayHelloToNameLoudly("Peter")
+nameSayer = HelloSayingGenerator("Peter")
+nameSayer.sayHelloToName()
+nameSayer.sayHelloToNameLoudly()
