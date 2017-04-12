@@ -1,4 +1,6 @@
-def sayHelloToName(arg):
-    print("Hello, " + arg + "!")
+def sayHelloToName(name):
     pass
-sayHelloToName("Peter")
+
+def sayHelloToNameLoudly(name):
+    print("HELLO, " + name.upper() + "!")
+sayHelloToNameLoudly("Peter")
