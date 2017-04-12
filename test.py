@@ -1,1 +1,4 @@
-print("Hello, world!")
+def sayHelloToName(arg):
+    print("Hello, " + arg + "!")
+    pass
+sayHelloToName("Peter")
